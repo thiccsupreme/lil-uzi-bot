@@ -6,6 +6,8 @@ module.exports = {
     category: "info",
     description: "Returns list of all albums",
     run: async (client, message, args) => {
+  if (!message.member.roles.find(r => r.name === "Staff")) return message.channel.send("only hi rollers can send it with this command")
+
         const embed = new RichEmbed()
         .setColor("E66CA5")
         .addField(" Eternal Atake", "[👽🛸Click at your own risk🛸👽🛸](https://open.spotify.com/album/7IyoGB8J31fvQDwGtHAq9m?si=T9y58nlGRCmOjPx5OOalqw)")
