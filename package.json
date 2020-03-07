@@ -1,0 +1,31 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node .",
+    "start": "node ."
+  },
+  "author": "thiccsupreme",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-art": "^2.5.0",
+    "ascii-table": "0.0.9",
+    "cheerio": "^1.0.0-rc.3",
+    "common-tags": "^1.8.0",
+    "discord.js": "^11.6.1",
+    "dotenv": "^8.2.0",
+    "fetch": "^1.1.0",
+    "fs": "0.0.1-security",
+    "mathjs": "^6.6.1",
+    "ms": "^2.1.2",
+    "node-fetch": "^2.6.0",
+    "node-sass": "^4.13.1",
+    "nodejs": "0.0.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "snekfetch": "^4.0.4",
+    "supreme-community-api": "^2.1.1"
+  }
+}
